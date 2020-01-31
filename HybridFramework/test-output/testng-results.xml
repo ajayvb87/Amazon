@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="137984" started-at="2020-01-30T14:09:46Z" finished-at="2020-01-30T14:12:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="137984" started-at="2020-01-30T14:09:46Z" finished-at="2020-01-30T14:12:04Z">
+      <class name="com.appium.tests.SearchTV">
+        <test-method status="PASS" signature="TC_SearchTV(java.util.Hashtable)[pri:0, instance:com.appium.tests.SearchTV@33c911a1]" name="TC_SearchTV" duration-ms="137464" started-at="2020-01-30T14:09:46Z" data-provider="testData" finished-at="2020-01-30T14:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DeviceName=Galaxy A7, RunMode=YES, Udid=320012b24ac8c5fd, Activity=com.amazon.mShop.splashscreen.StartupActivity, Package=com.amazon.mShop.android.shopping}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SearchTV -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.appium.tests.SearchTV@33c911a1]" name="tearDown" is-config="true" duration-ms="299" started-at="2020-01-30T14:12:03Z" finished-at="2020-01-30T14:12:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_SearchTV status=SUCCESS method=SearchTV.TC_SearchTV(java.util.Hashtable)[pri:0, instance:com.appium.tests.SearchTV@33c911a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="TC_SearchTV(java.util.Hashtable)[pri:0, instance:com.appium.tests.SearchTV@33c911a1]" name="TC_SearchTV" duration-ms="0" started-at="2020-01-30T14:12:04Z" data-provider="testData" finished-at="2020-01-30T14:12:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DeviceName=Galaxy A7, RunMode=NO, Udid=320012b24ac8c5fd, Activity=com.amazon.mShop.splashscreen.StartupActivity, Package=com.amazon.mShop.android.shopping}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the Test annotation method as the runmode is set as : NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the Test annotation method as the runmode is set as : NO
+at com.appium.tests.SearchTV.TC_SearchTV(SearchTV.java:49)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SearchTV -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.appium.tests.SearchTV@33c911a1]" name="tearDown" is-config="true" duration-ms="94" started-at="2020-01-30T14:12:04Z" finished-at="2020-01-30T14:12:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_SearchTV status=SKIP method=SearchTV.TC_SearchTV(java.util.Hashtable)[pri:0, instance:com.appium.tests.SearchTV@33c911a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="TC_SearchTV(java.util.Hashtable)[pri:0, instance:com.appium.tests.SearchTV@33c911a1]" name="TC_SearchTV" duration-ms="0" started-at="2020-01-30T14:12:04Z" data-provider="testData" finished-at="2020-01-30T14:12:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DeviceName=Galaxy A7, RunMode=NO, Udid=320012b24ac8c5fd, Activity=com.amazon.mShop.splashscreen.StartupActivity, Package=com.amazon.mShop.android.shopping}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the Test annotation method as the runmode is set as : NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the Test annotation method as the runmode is set as : NO
+at com.appium.tests.SearchTV.TC_SearchTV(SearchTV.java:49)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SearchTV -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.appium.tests.SearchTV@33c911a1]" name="tearDown" is-config="true" duration-ms="62" started-at="2020-01-30T14:12:04Z" finished-at="2020-01-30T14:12:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_SearchTV status=SKIP method=SearchTV.TC_SearchTV(java.util.Hashtable)[pri:0, instance:com.appium.tests.SearchTV@33c911a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.appium.tests.SearchTV -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

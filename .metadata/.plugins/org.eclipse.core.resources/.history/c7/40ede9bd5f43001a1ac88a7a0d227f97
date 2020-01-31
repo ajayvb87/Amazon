@@ -1,0 +1,17 @@
+# Properties extension based file can be read and written using the Properties class of Java
+# Properties class implmenets the MAP interface of Collection framework.
+# Properties file will take KEY -VALUE pair.
+# Keys should be unique but values can be duplicated.
+
+# Nomencleture -> locator__ElementName_ElementType_Action/Step
+Xpath_Skipsignin_Button_Tap = //android.widget.Button[@text = 'Skip sign in']
+Xpath_Skipsignin_Button_ValidateText = //android.widget.Button[@text = 'Skip sign in']
+Xpath_Search_EditBox_Type = //android.widget.EditText[@text = 'Search']
+Xpath_Search_EditBox_ValidateText = //android.widget.EditText[@text = 'Search']
+Xpath_WifiCheckbox_Checkbox_Tap = //android.widget.CheckBox[@class = 'android.widget.CheckBox']
+Xpath_WifiCheckbox_Checkbox_ValidateAttributeValue = //android.widget.CheckBox[@class = 'android.widget.CheckBox']
+Xpath_WifiSettings_OptionElement_Tap = //android.widget.TextView[@text = 'WiFi settings']
+Xpath_WifiSettings_OptionElement_ValidateText = //android.widget.TextView[@text = 'WiFi settings']
+Id_WifiEditBox_EditBox_Type = android:id/edit
+Xpath_OkButton_Button_Tap = //android.widget.Button[@text = 'OK']
+Xpath_OkButton_Button_ValidateText = //android.widget.Button[@text = 'OK']
